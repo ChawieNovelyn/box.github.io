@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <header>
-  <style>
-    .standard {
-        border: 5px solid teal;
+	<header>
+		<style>
+			.standard {
+				border: 5px solid teal;
         background-color: #A5CFE3;
         padding: 40px;
         margin: 40px;
         width: 350px;
         height: 150px;
-      }
-      .alternate {
-        box-sizing: border-box;
+			}
+			.alternate {
+	      box-sizing: border-box;
+	      border: 5px solid teal;
+				padding: 40px;
         width: 350px;
         height: 150px;
       }
-	  html {
-		  box-sizing: border-box;
-	  }
-	  *, *::before, *::after {
-		  box-sizing: inherit;
-	  }
- 
-  </style>
-  </header>
-  
-  <body>
-    <div class="standard">I am using the standard box model.</div>
+			html {
+				box-sizing: border-box;
+			}
+			*, *::before, *::after {
+				box-sizing: inherit;
+			}
+		
+		</style>
+	</header>
+	
+	<body>
+		<div class="standard">I am using the standard box model.</div>
     <div class="alternate">I am using the alternate box model.</div>
   </body>
   
